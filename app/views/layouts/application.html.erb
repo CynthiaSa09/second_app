@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SecondApp60</title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+    			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">Second App Challenge</a></h1>
+							</header>
+						</div>
+
+            <!-- Nav -->
+						<nav id="nav">
+            	<ul>
+							<li><%= link_to('Home', root_path) %><li>
+							<li><%= link_to('Test', test_path) %><li>
+              <li><%= link_to('Dropdown', index_path) %><li>
+							<li><%= link_to('About us', about_us_path) %><li>
+							</ul>
+						</nav>           
+
+				</div>
+
+        <!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+						<article id="main" class="special">
+							<header>
+                <%= yield %>
+							</header>
+            </article>   
+          </div>         
+        </div>
+
+      <footer class="container-fluid" id="footer">
+        <h4>All rights Reserved</h4>
+      </footer>  
+
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
